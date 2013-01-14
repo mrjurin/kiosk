@@ -1,1 +1,1 @@
-web: gunicorn kiosk.wsgi
+web: python manage.py collectstatic --noinput;  gunicorn kiosk.wsgi
