@@ -1,6 +1,7 @@
 # Django settings for kiosk project.
 import os.path
 PROJECT_DIR = os.path.dirname(__file__) # this is not Django setting.
+PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -67,6 +68,8 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    'kiosk/app/static',
+    os.path.join(PROJECT_PATH, 'static'),
     #os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'app/static'))
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
