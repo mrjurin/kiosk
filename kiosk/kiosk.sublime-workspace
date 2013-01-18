@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"zoom",
+				"zoomTarget"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
 				"sorted",
 				"sortedTags"
 			],
@@ -40,10 +68,6 @@
 				"margin-left"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"marg",
 				"margin-left"
 			],
@@ -78,10 +102,6 @@
 			[
 				"import",
 				"important"
-			],
-			[
-				"bac",
-				"background-repeat"
 			],
 			[
 				"commun",
@@ -494,36 +514,16 @@
 			[
 				"backgr",
 				"background-repeat"
-			],
-			[
-				"back",
-				"background-repeat"
-			],
-			[
-				"sho",
-				"showInfo"
-			],
-			[
-				"ta",
-				"table-cell"
-			],
-			[
-				"d",
-				"display"
-			],
-			[
-				"tota",
-				"totalBudget"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "settings.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5582,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,15 +531,7 @@
 			"file": "urls.py",
 			"settings":
 			{
-				"buffer_size": 586,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "settings.py",
-			"settings":
-			{
-				"buffer_size": 5205,
+				"buffer_size": 940,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +539,50 @@
 			"file": "/home/deepan/Projects/kiosk/app/views.py",
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% extends \"base.html\" %}\n\n\n{% block content %}\n\n<div id=\"big-container\">\n	{% include \"topbar.html\" %}\n\n	<div id=\"mc-container\" class=\"zoomViewport\">\n		<div class=\"zoomContainer\">\n			<div id=\"mc-zoom1\" class=\"zoomTarget\">\n				<i class=\"icon-circle-blank pull-left\"></i>\n				<i class=\"icon-remove pull-right\"></i>\n			</div>\n		</div>\n\n\n\n	</div>\n\n</div>\n\n<script type=\"text/javascript\">\n\n$(document).ready(function(){\n});\n\nfunction function1() {alert(\"something\");}\n\n</script>\n\n\n\n\n\n{% endblock %}",
+			"file": "/home/deepan/Projects/kiosk/templates/index.html",
+			"file_size": 534,
+			"file_write_time": 1358241151000000,
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/topbar.html",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/nav.html",
+			"settings":
+			{
+				"buffer_size": 64,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
+			"settings":
+			{
+				"buffer_size": 1066,
 				"line_ending": "Unix"
 			}
 		}
@@ -624,6 +659,12 @@
 	},
 	"file_history":
 	[
+		"/home/deepan/Projects/kiosk/templates/two.html",
+		"/home/deepan/Projects/kiosk/app/static/css/FortAwesome-Font-Awesome-130486b/README.md",
+		"/home/deepan/Projects/kiosk/kiosk/urls.py",
+		"/home/deepan/Projects/kiosk/app/static/css/base.css",
+		"/home/deepan/Projects/kiosk/templates/index.html",
+		"/home/deepan/Projects/kiosk/app/templates/index.html",
 		"/home/deepan/Projects/kiosk/.gitignore",
 		"/home/deepan/Projects/bbq/templates/community/community_edit_profile.html",
 		"/home/deepan/Projects/bbq/community/views.py",
@@ -745,13 +786,7 @@
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/ipopt.out",
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.cpp",
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.hpp",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_main.cpp",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.o",
-		"/home/deepan/CoinIpopt/MyExample/Makefile.in",
-		"/home/deepan/Downloads/ma27-1.0.0/src/ma27d.f",
-		"/home/deepan/Downloads/ma27-1.0.0/README",
-		"/home/deepan/Downloads/ma27-1.0.0/missing",
-		"/home/deepan/Projects/git/conpanel/sales_urls.py"
+		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_main.cpp"
 	],
 	"find":
 	{
@@ -770,6 +805,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"zoomCon",
 			"slug",
 			"POST",
 			"request.user",
@@ -896,8 +932,7 @@
 			"contact",
 			"|",
 			"getitem",
-			"        $(\"#",
-			"defau"
+			"        $(\"#"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -919,31 +954,37 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "settings.py",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2086,
+								2086
+							],
+							[
+								2942,
+								2942
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1587.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -953,15 +994,15 @@
 					"file": "urls.py",
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								559,
-								559
+								0,
+								0
 							]
 						],
 						"settings":
@@ -976,25 +1017,140 @@
 				},
 				{
 					"buffer": 2,
-					"file": "settings.py",
+					"file": "/home/deepan/Projects/kiosk/app/views.py",
 					"settings":
 					{
-						"buffer_size": 5205,
+						"buffer_size": 253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								746,
-								746
+								249,
+								249
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/deepan/Projects/kiosk/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+							"bookmark_m":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										7,
+										7
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/deepan/Projects/kiosk/templates/index.html",
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/deepan/Projects/kiosk/templates/topbar.html",
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/deepan/Projects/kiosk/templates/nav.html",
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1009,27 +1165,28 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "/home/deepan/Projects/kiosk/app/views.py",
+					"buffer": 7,
+					"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 1066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								1003,
+								1003
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1065,7 +1222,7 @@
 		"cols":
 		[
 			0.0,
-			0.576041666667,
+			0.624479166667,
 			1.0
 		],
 		"rows":

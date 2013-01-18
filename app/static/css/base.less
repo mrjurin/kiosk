@@ -1,14 +1,97 @@
-#topbar {
-	height:100px;
+@green: #88A66A;
+@grey: #252621;
+@lightgrey: #3B3C37;
+@red: #FF0000;
+
+
+body {
+	overflow: hidden;
+}
+
+#big-container{
+	height: 768px;
+	width: 1024px;
+	//border: 2px solid black;
+	background-image:url('/static/img/bg.jpg');
+}
+
+/*--------------- Top Bar Section (tb) ------------------*/
+
+
+#tb {
+	height: 60px;
+	border-bottom: 2px solid black;
+
+}
+
+#tb-logo img {
+	height: 50px;
+	margin:5px;
+	max-width: none !important;
+	
+}
+
+#tb-icon-container {
+	height: 60px;
+
+
+}
+
+.tb-icon {
+	float: right;
+	text-align: center;
+	margin:5px 10px 5px 10px;
+	vertical-align: middle;
 }
 
 
-#sidebar {
-	height: 100%;
+.tb-icon i {
+	font-size: 32px;
+}
+
+.tb-icon a {
+	text-decoration: none;
+	color: @lightgrey;
+}
+
+.active {
+	color: @green !important;
 
 }
 
-#main-content {
-	height: 100%;
 
+/*--------------- Main Content Section (mc)------------------*/
+
+
+.content-container {
+	height: 702px;
+	width: 1024px;
+	position: relative;
+	background-image: url('/static/img/map-small.png');
+
+}
+
+#mc-container {
+	height: 702px;
+	width: 1024px;
+	position: relative;
+	
+}
+
+.zoomContainer {
+	height: 702px;
+	width: 1024px;
+	
+
+}
+
+
+
+#mc-zoom1 {
+	position: absolute;
+	top:100px;
+	right: 100px;
+	height: 200px;
+	width: 200px;
+	border:1px solid black;
 }

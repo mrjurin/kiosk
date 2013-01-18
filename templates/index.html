@@ -2,23 +2,40 @@
 
 
 {% block content %}
-<div class="container-fluid">
 
-	{%include "topbar.html" %}
+<div id="big-container">
+	{% include "topbar.html" %}
 
-	<div class="row-fluid">
-		{% include "nav.html" %}
-
-		<div id="main-content" class="span9">
-			Main Content block
-
-			<img src="/static/img/art2-2.jpg">
-
-			<a href="/two/">Link to other page</a>
+	<div class = "content-container" id="mc-container">
+		<div id="mc-zoom1">
+			<span class="pull-right close" id="mc-close">x</span>
+			Some stuff here
 		</div>
+
+
 	</div>
 
+
 </div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$("#mc-zoom1").zoomTarget();
+
+	$("#mc-close").click(function(evt) {
+        $("#big-container").zoomTo({targetsize:1, scalemode:"width", duration:600});
+        evt.stopPropagation();
+    });
+
+});
+
+function function1() {alert("something");}
+
+</script>
+
+
+
 
 
 {% endblock %}
