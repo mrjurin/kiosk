@@ -16,7 +16,8 @@ urlpatterns = patterns('app.views',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$','index' ),
-    url(r'^two/$', 'two')
+    url(r'^two/$', 'two'),
+    url(r'^mobile/$', 'mobile')
 )
 
 

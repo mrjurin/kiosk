@@ -9,3 +9,6 @@ def index(request):
 
 def two(request):
 	return render_to_response("two.html")
+
+def mobile(request):
+	return render_to_response ("mobile.html")

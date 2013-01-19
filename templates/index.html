@@ -8,8 +8,10 @@
 
 	<div class = "content-container" id="mc-container">
 		<div id="mc-zoom1">
-			<span class="pull-right close" id="mc-close">x</span>
-			Some stuff here
+			<span class="sc-el" style="top:3px; right:3px;" id="mc-close"><a href="#">x</a></span>
+			<span class="sc-el" id="el1"><i class="icon-circle-blank"></i></span>
+			<span class="sc-el" id="el2"><i class="icon-circle-blank"></i></span>	
+			
 		</div>
 
 
@@ -17,25 +19,6 @@
 
 
 </div>
-
-<script type="text/javascript">
-
-$(document).ready(function(){
-	$("#mc-zoom1").zoomTarget();
-
-	$("#mc-close").click(function(evt) {
-        $("#big-container").zoomTo({targetsize:1, scalemode:"width", duration:600});
-        evt.stopPropagation();
-    });
-
-});
-
-function function1() {alert("something");}
-
-</script>
-
-
-
 
 
 {% endblock %}

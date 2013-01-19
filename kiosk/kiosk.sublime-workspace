@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-clip"
+			],
+			[
+				"zoomT",
+				"zoomTarget"
+			],
+			[
 				"zoom",
 				"zoomTarget"
 			],
@@ -506,14 +514,6 @@
 			[
 				"total",
 				"totalBudget"
-			],
-			[
-				"tot",
-				"totalPeople"
-			],
-			[
-				"backgr",
-				"background-repeat"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "urls.py",
 			"settings":
 			{
-				"buffer_size": 940,
+				"buffer_size": 973,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "/home/deepan/Projects/kiosk/app/views.py",
 			"settings":
 			{
-				"buffer_size": 253,
+				"buffer_size": 318,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,18 +547,31 @@
 			"file": "/home/deepan/Projects/kiosk/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 554,
+				"buffer_size": 987,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "{% extends \"base.html\" %}\n\n\n{% block content %}\n\n<div id=\"big-container\">\n	{% include \"topbar.html\" %}\n\n	<div id=\"mc-container\" class=\"zoomViewport\">\n		<div class=\"zoomContainer\">\n			<div id=\"mc-zoom1\" class=\"zoomTarget\">\n				<i class=\"icon-circle-blank pull-left\"></i>\n				<i class=\"icon-remove pull-right\"></i>\n			</div>\n		</div>\n\n\n\n	</div>\n\n</div>\n\n<script type=\"text/javascript\">\n\n$(document).ready(function(){\n});\n\nfunction function1() {alert(\"something\");}\n\n</script>\n\n\n\n\n\n{% endblock %}",
 			"file": "/home/deepan/Projects/kiosk/templates/index.html",
-			"file_size": 534,
-			"file_write_time": 1358241151000000,
 			"settings":
 			{
-				"buffer_size": 493,
+				"buffer_size": 464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/mobile.html",
+			"settings":
+			{
+				"buffer_size": 1029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/two.html",
+			"settings":
+			{
+				"buffer_size": 81,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,10 +592,34 @@
 			}
 		},
 		{
+			"file": "/home/deepan/Projects/kiosk/templates/jmobile.html",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
 			"settings":
 			{
-				"buffer_size": 1066,
+				"buffer_size": 2104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Dropbox/Projects/impress.js/index.html",
+			"settings":
+			{
+				"buffer_size": 19269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Dropbox/Projects/kiosk/app/static/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1395,
 				"line_ending": "Unix"
 			}
 		}
@@ -590,19 +627,19 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 96.0,
+		"height": 159.0,
 		"selected_items":
 		[
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
 			[
 				"wra",
 				"HTML: Wrap Selection With Tag"
 			],
 			[
 				"wrap",
-				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"wr",
 				"HTML: Wrap Selection With Tag"
 			],
 			[
@@ -659,11 +696,12 @@
 	},
 	"file_history":
 	[
+		"/home/deepan/Dropbox/Projects/zoomooz/zoomooz/examples/imagestack/index.html",
+		"/home/deepan/Projects/kiosk/templates/index.html",
 		"/home/deepan/Projects/kiosk/templates/two.html",
 		"/home/deepan/Projects/kiosk/app/static/css/FortAwesome-Font-Awesome-130486b/README.md",
 		"/home/deepan/Projects/kiosk/kiosk/urls.py",
 		"/home/deepan/Projects/kiosk/app/static/css/base.css",
-		"/home/deepan/Projects/kiosk/templates/index.html",
 		"/home/deepan/Projects/kiosk/app/templates/index.html",
 		"/home/deepan/Projects/kiosk/.gitignore",
 		"/home/deepan/Projects/bbq/templates/community/community_edit_profile.html",
@@ -785,8 +823,7 @@
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_c/hs071_c.c",
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/ipopt.out",
 		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.cpp",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.hpp",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_main.cpp"
+		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.hpp"
 	],
 	"find":
 	{
@@ -805,6 +842,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"one",
 			"zoomCon",
 			"slug",
 			"POST",
@@ -931,8 +969,7 @@
 			"ContactForm",
 			"contact",
 			"|",
-			"getitem",
-			"        $(\"#"
+			"getitem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -954,7 +991,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -969,12 +1006,12 @@
 						"selection":
 						[
 							[
-								2086,
-								2086
+								2085,
+								2085
 							],
 							[
-								2942,
-								2942
+								2941,
+								2941
 							]
 						],
 						"settings":
@@ -994,15 +1031,15 @@
 					"file": "urls.py",
 					"settings":
 					{
-						"buffer_size": 940,
+						"buffer_size": 973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								679,
+								679
 							]
 						],
 						"settings":
@@ -1020,15 +1057,15 @@
 					"file": "/home/deepan/Projects/kiosk/app/views.py",
 					"settings":
 					{
-						"buffer_size": 253,
+						"buffer_size": 318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								249,
-								249
+								316,
+								316
 							]
 						],
 						"settings":
@@ -1046,7 +1083,7 @@
 					"file": "/home/deepan/Projects/kiosk/templates/base.html",
 					"settings":
 					{
-						"buffer_size": 554,
+						"buffer_size": 987,
 						"regions":
 						{
 							"bookmark_m":
@@ -1055,8 +1092,8 @@
 								"regions":
 								[
 									[
-										7,
-										7
+										24,
+										24
 									]
 								]
 							}
@@ -1064,8 +1101,8 @@
 						"selection":
 						[
 							[
-								308,
-								308
+								23,
+								23
 							]
 						],
 						"settings":
@@ -1084,15 +1121,15 @@
 					"file": "/home/deepan/Projects/kiosk/templates/index.html",
 					"settings":
 					{
-						"buffer_size": 493,
+						"buffer_size": 464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
+								301,
+								301
 							]
 						],
 						"settings":
@@ -1107,6 +1144,59 @@
 				},
 				{
 					"buffer": 5,
+					"file": "/home/deepan/Projects/kiosk/templates/mobile.html",
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 404.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/deepan/Projects/kiosk/templates/two.html",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/home/deepan/Projects/kiosk/templates/topbar.html",
 					"settings":
 					{
@@ -1133,7 +1223,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "/home/deepan/Projects/kiosk/templates/nav.html",
 					"settings":
 					{
@@ -1144,8 +1234,8 @@
 						"selection":
 						[
 							[
-								63,
-								63
+								62,
+								62
 							]
 						],
 						"settings":
@@ -1161,23 +1251,51 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 7,
-					"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
+					"buffer": 9,
+					"file": "/home/deepan/Projects/kiosk/templates/jmobile.html",
 					"settings":
 					{
-						"buffer_size": 1066,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1003,
-								1003
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
+					"settings":
+					{
+						"buffer_size": 2104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2100,
+								2100
 							]
 						],
 						"settings":
@@ -1186,7 +1304,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 3588.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/deepan/Dropbox/Projects/impress.js/index.html",
+					"settings":
+					{
+						"buffer_size": 19269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15825,
+								15825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9984.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/deepan/Dropbox/Projects/kiosk/app/static/js/index.js",
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1725.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1222,7 +1394,7 @@
 		"cols":
 		[
 			0.0,
-			0.624479166667,
+			0.4984375,
 			1.0
 		],
 		"rows":

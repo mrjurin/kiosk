@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div data-role="page" id="map" class="page">
+
+	<div data-role="header" class="header">
+		<h1>My Title</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" id="mobile-zoom-container">	
+
+		<div class="zoom" id="zoom1">
+			<span class="zoom-close" id="zoomClose1"><a href="#">x</a></span>
+
+
+
+		</div>
+
+		<div class="zoom" id="zoom2"> 
+			<span class="zoom-close">x</span>
+			<div class="bubble1" id="sutainability"> Sustainability</div>
+
+		</div>
+
+		<div class="zoom" id="zoom3"> 
+			<span class="zoom-close">x</span>
+
+		</div>
+
+		<div class="zoom" id="zoom4"> 
+			<span class="zoom-close">x</span>
+
+		</div>
+
+
+		
+
+	</div><!-- /content -->
+
+	<script type="text/javascript">
+		$('#map').backstretch("/static/img/background2.png");
+	</script>
+
+</div><!-- /page -->
+
+
+<div data-role="page" id="two">
+	<div data-role="header" class="header">
+		Bleh blah header
+	</div>
+
+	<div data-role="content">
+		more bleh blah
+		<a href="#one"> back to the first</a>
+	</div>
+
+</div>
+
+
+{%endblock%}

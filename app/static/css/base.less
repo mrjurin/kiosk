@@ -72,17 +72,18 @@ body {
 }
 
 #mc-container {
-	height: 702px;
-	width: 1024px;
-	position: relative;
-	
+		
 }
 
-.zoomContainer {
-	height: 702px;
-	width: 1024px;
-	
+.zoom-sc {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 
+.sc-el {
+	position: absolute;
+	display: none;
 }
 
 
@@ -91,7 +92,90 @@ body {
 	position: absolute;
 	top:100px;
 	right: 100px;
-	height: 200px;
-	width: 200px;
+	height: 400px;
+	width: 400px;
 	border:1px solid black;
 }
+
+#el1 {
+	top:20px; 
+	left:20px;
+	height:100px;
+	width: 100px;
+	border: 1px solid red;
+}
+
+#el2 {
+	top:20px; 
+	right:20px;
+	height:100px;
+	width: 100px;
+	border: 1px solid red;
+}
+
+
+.header {
+	background: white;
+	opacity: 0.7;
+}
+
+.page {
+	height: 702px !important;
+	width: 1024px !important;
+	position: relative;
+}
+
+
+.zoom {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+}
+
+.zoom-close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	display: none;
+}
+
+#zoom1 {
+	right: 100px;
+	top: 100px;
+}
+
+#zoom2 {
+	left:100px;
+	top:100px;
+}
+
+#zoom3 {
+	right:100px;
+	bottom:100px;
+}
+
+#zoom4 {
+	left: 100px;
+	bottom: 100px;
+}
+
+.bubble1 {
+	font-size: 5px;
+	background-image: url('/static/img/speechbubble.png');
+	background-clip: border-box;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	display: none;
+}
+
+#sutainability {
+	left: 15px;
+	top: 15px;
+	text-align: center;
+	padding: 5px;
+}
+
