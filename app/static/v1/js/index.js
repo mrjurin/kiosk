@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('.mz-title').click(function(evt){
+	$('#mz1-title').click(function(evt){
 		if ($(this).parent().hasClass('zoomed')) {
 
 		}
@@ -9,7 +9,7 @@ $(document).ready(function(){
 			$(this).parent().zoomTo({
 				targetsize:1.0,
 				animationendcallback:zoomCallback,
-				scalemode:"width"
+				scalemode:"height"
 				
 			});
 			evt.stopPropagation();
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 		$('body').zoomTo({
 			targetsize:1.0,
-			scalemode:"width"
+			scalemode:"height"
 			//animationendcallback: mz1zoomOutCallback
 		});
 		evt.stopPropagation();
