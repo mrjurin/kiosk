@@ -4,15 +4,103 @@
 		"selected_items":
 		[
 			[
-				"backgr",
-				"background-clip"
+				"re",
+				"render_to_response"
 			],
 			[
-				"zoomT",
-				"zoomTarget"
+				"f",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"sb",
+				"sub-zoom-container1"
+			],
+			[
+				"subZ",
+				"sub-zoom-container1"
+			],
+			[
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"zoom",
+				"zoom-container1"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"fn",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"fa",
+				"fadeOut"
+			],
+			[
+				"sz-c",
+				"sz-close"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mz",
+				"mz-title"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"zoomT",
 				"zoomTarget"
 			],
 			[
@@ -22,22 +110,6 @@
 			[
 				"te",
 				"text-align"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
-				"tex",
-				"text-decoration"
-			],
-			[
-				"bac",
-				"background"
-			],
-			[
-				"fot",
-				"font-size"
 			],
 			[
 				"sorted",
@@ -64,19 +136,7 @@
 				"Meta"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"marin",
-				"margin-left"
-			],
-			[
-				"marg",
 				"margin-left"
 			],
 			[
@@ -90,10 +150,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"border-bot",
@@ -224,10 +280,6 @@
 				"table-cell"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"Cs",
 				"CustomerAdmin"
 			],
@@ -278,14 +330,6 @@
 			[
 				"ThemeCa",
 				"ThemeCategoryAdmin"
-			],
-			[
-				"fo",
-				"font-size"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"context",
@@ -444,10 +488,6 @@
 				"peopleMultiplier"
 			],
 			[
-				"f",
-				"foodSelected"
-			],
-			[
 				"remainin",
 				"remainingWeight"
 			],
@@ -474,46 +514,6 @@
 			[
 				"type",
 				"typeof"
-			],
-			[
-				"typ",
-				"typeof"
-			],
-			[
-				"start",
-				"startDate"
-			],
-			[
-				"sta",
-				"startDate"
-			],
-			[
-				"D",
-				"DISCOUNTS"
-			],
-			[
-				"mn",
-				"minPerPerson"
-			],
-			[
-				"n",
-				"numberPerUnit"
-			],
-			[
-				"monst",
-				"monsters_food"
-			],
-			[
-				"Htt",
-				"HttpResponse"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"total",
-				"totalBudget"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "urls.py",
 			"settings":
 			{
-				"buffer_size": 973,
+				"buffer_size": 953,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,23 +539,114 @@
 			"file": "/home/deepan/Projects/kiosk/app/views.py",
 			"settings":
 			{
-				"buffer_size": 318,
+				"buffer_size": 279,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/deepan/Projects/kiosk/templates/base.html",
+			"contents": "<!DOCTYPE html> \n<html>\n<head>\n	<title>NUS UCI</title>\n	<meta name=\"viewport\" content=\"width=1024, initial-scale=1\"> \n	<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n	<meta name = \"viewport\" content = \"user-scalable = no\">\n	\n	\n\n	<link rel=\"stylesheet/less\" href=\"/static/v1/css/base.less\" media=\"all\" />\n	<link rel=\"stylesheet\" href=\"http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css\" />\n	\n	<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n	<script src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js\"></script>\n\n	<!-- <script src=\"http://code.jquery.com/jquery-1.8.2.min.js\"></script> -->\n	<script src=\"http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js\"></script>\n\n	<script type=\"text/javascript\" src=\"/static/v1/js/jquery.backstretch.min.js\"></script>\n	\n	\n\n	<script src=\"/static/v1/js/jquery.zoomooz.min.js\"></script>\n	<!-- <script type=\"text/javascript\" src=\"/static/v1/js/index.js\"></script> -->\n	<script type=\"text/javascript\" src=\"/static/v1/js/index2.js\"></script>\n	<script type=\"text/javascript\" src=\"/static/v1/js/less-1.3.0.min.js\"></script>\n\n</head>\n<body>\n		{% include \"v1/welcome.html\" %}\n		{% include \"v1/masterplan2.html\" %}		\n		{% include \"v1/about.html\" %}\n\n\n</body>\n</html>",
+			"file": "/home/deepan/Projects/kiosk/templates/v1/base.html",
+			"file_size": 1277,
+			"file_write_time": 1360635386000000,
 			"settings":
 			{
-				"buffer_size": 987,
+				"buffer_size": 1279,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/deepan/Projects/kiosk/templates/index.html",
+			"file": "/home/deepan/Projects/kiosk/templates/v1/timeline/timeline.html",
 			"settings":
 			{
-				"buffer_size": 464,
+				"buffer_size": 1888,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/v1/welcome.html",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Downloads/jquery.mobile-1.2.0/demos/index.html",
+			"settings":
+			{
+				"buffer_size": 2773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/v1/masterplan2.html",
+			"settings":
+			{
+				"buffer_size": 2627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Dropbox/UCI/Demo mock ups/Colour code and opacity.txt",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/v1/timeline.html",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/v1/topbar.html",
+			"settings":
+			{
+				"buffer_size": 418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/templates/v1/about.html",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/app/static/v1/css/base.less",
+			"settings":
+			{
+				"buffer_size": 6685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n/** master plan  **/\n\n#masterplan {\n	height:100%;\n	background-image: url(\"/static/v1/img/maincrop.jpg\");\n	background-size: 100% 100%;\n	background-repeat: no-repeat;\n	position: relative;\n	padding: 0px;\n\n}\n\n.mz {\n	position: absolute;\n	height: 300px;\n	width: 400px;\n	color: @white;\n	font-size: 40%;\n	text-shadow: none;\n	.border;\n}\n\n\n\n#mz1 {\n	//right: 10%;\n	//bottom: 15%;\n	//background-image: url('/static/v1/img/main.jpg');\n	top: 100px;\n	left: 150px;\n	\n}\n\n.mz-title, .mz-sidebar, .mz-content, .mz-close {\n	position: absolute;\n} \n\n.mz-title {\n	top: 200px;\n	text-align: center;\n	width: 100%;\n\n}\n\n.mz-sidebar {\n	top: -5px;\n	left:-10px;\n	padding: 10px 15px 10px 18px;\n	height: 100%;\n	width: 30%;\n	background: @grey;\n	opacity: 0.7;\n	display:none;\n	text-align: center;\n}\n\n.sz-sidebar {\n	top: -5px;\n	left:-10px;\n	padding: 10px 15px 10px 18px;\n	height: 100%;\n	width: 20%;\n	background: @grey;\n	opacity: 0.7;\n	display:none;\n	text-align: center;\n}\n\n.mz-content{\n	top: 0;\n	right: 0;\n	width: 65%;\n	display: none;\n	margin-top: 10px;\n}\n\n.sz-content {\n	top: 0;\n	right: 0;\n	width: 65%;\n	display: none;\n	margin-top: 10px;\n\n}\n\n.mz-close {\n	font-size: 120%;\n	bottom: 5%;\n	width: 100%;\n	display: inline-block;\n	left: -5px;\n}\n\n.sz-close {\n	font-size: 120%;\n	bottom: 15%;\n	width: 100%;\n	display: inline-block;\n	left: -5px;\n	bottom:17px;\n\n}\n\n.mz-close img, {\n	height: 5px;\n}\n\n.sz-close img {\n	height: 2px;\n}\n\n.sz-title, .sz-sidebar, .sz-close, .sz-content {\n	position: absolute;\n}\n\n.sz {\n	position: absolute;\n	height: 150px;\n	width: 200px;\n	font-size: 50%;\n	.border\n}\n\n\n#sz-sustain {\n	right: 30px;\n	bottom: -220px;\n}\n\n.sz-green-bubble {\n	background-image: url('/static/v1/img/bubble.png');\n	background-repeat: no-repeat;\n	background-size: 100% 100%;\n	height: 13px;\n	width: 40px;	\n	padding: 5px;\n	text-align: center;\n}\n\n.sz-large-grey-bubble {\n	background-image: url('/static/v1/img/bubble2.png');\n	background-repeat: no-repeat;\n	background-size: 100% 100%;\n	height: 13px;\n	width: 40px;	\n	padding: 5px;\n	text-align: center;\n\n}\n\n.sz-grey-bubble {\n	position: absolute;\n	font-size: 80%;\n	background-image: url('/static/v1/img/bubble2.png');\n	background-repeat: no-repeat;\n	background-size: 100% 100%;\n	height: 9px;\n	width: 30px;	\n	padding: 1px;\n	text-align: center;\n\n}\n\n#sz-b1 {\n	left:80px;\n}\n\n#sz-b2 {\n	left: 30px;\n	top: 20px;\n\n}\n\n#sz-b3 {\n	left: 25px;\n	top: 80px;\n	\n\n}\n\n#sz-sustain-title {\n	position: absolute;\n	bottom: 60px;\n	right: 90px;\n}\n\n#fake1 {\n	font-size: 60%;	\n	position: absolute;\n	top:30px;\n	right: 30px;\n}\n\n#fake2 {\n	font-size: 60%;\n	position: absolute;\n	top:20px;\n	left: 20px;\n}\n\n#modal1 {\n	height: 50px;\n	width: 50px;\n}\n\n\n\n\n#overlay {\n	position: absolute;\n	width: 300px;\n	height: 100px;\n	margin-left: auto;\n	margin-right: auto;	\n	padding: 30px;\n	background: @grey;\n	opacity: 0.7;\n	border-radius: 5px;\n	left:20px;\n	top: 70px;\n	display: none;\n}\n\n#overlay-close {\n	position: absolute;\n	right: 5px;\n	top: 5px;\n}\n\n/* Random Rubbish */\n#mz2 {\n	position: absolute;\n	bottom: 200px;\n	left: 200px;\n}\n\n#mz3 {\n	position: absolute;\n	\n}\n#mz4 {\n	position: absolute;\n	\n}\n",
+			"settings":
+			{
+				"buffer_size": 3042,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index2.js",
+			"settings":
+			{
+				"buffer_size": 2832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1788,
 				"line_ending": "Unix"
 			}
 		},
@@ -568,75 +659,36 @@
 			}
 		},
 		{
-			"file": "/home/deepan/Projects/kiosk/templates/two.html",
+			"contents": "Future plans for the campus need to be in balance with nature and user patterns for sustainable development. \nSite disturbance are minimized in every possible way during construction to reduce impact on the environment and inhabitants.  To reduce disruption to the natural environment, sufficient green and blue spaces are provided for occupants’ daily activities. Conserving the natural vegetation is encouraged and there shall be restoration of the greenery at the site after construction. Natural planting and water bodies can be used to optimize microclimate to improve outdoor thermal comfort and reduce heat island effect. Efforts to reduce carbon footprint and pollution within the district can be done through promoting usage of green vehicles and public transports.\n",
 			"settings":
 			{
-				"buffer_size": 81,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Projects/kiosk/templates/topbar.html",
-			"settings":
-			{
-				"buffer_size": 585,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Projects/kiosk/templates/nav.html",
-			"settings":
-			{
-				"buffer_size": 64,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Projects/kiosk/templates/jmobile.html",
-			"settings":
-			{
-				"buffer_size": 610,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
-			"settings":
-			{
-				"buffer_size": 2104,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Dropbox/Projects/impress.js/index.html",
-			"settings":
-			{
-				"buffer_size": 19269,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/deepan/Dropbox/Projects/kiosk/app/static/js/index.js",
-			"settings":
-			{
-				"buffer_size": 1395,
-				"line_ending": "Unix"
+				"buffer_size": 775,
+				"line_ending": "Unix",
+				"name": "Future plans for the campus need to be in balance"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 159.0,
+		"height": 96.0,
 		"selected_items":
 		[
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
 			[
 				"wr",
 				"HTML: Wrap Selection With Tag"
 			],
 			[
-				"wra",
+				"w",
 				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"we",
+				"Word Wrap: Toggle"
 			],
 			[
 				"wrap",
@@ -657,10 +709,6 @@
 			[
 				"if",
 				"Snippet: if … else"
-			],
-			[
-				"w",
-				"HTML: Wrap Selection With Tag"
 			],
 			[
 				"wrap ",
@@ -696,9 +744,35 @@
 	},
 	"file_history":
 	[
-		"/home/deepan/Dropbox/Projects/zoomooz/zoomooz/examples/imagestack/index.html",
-		"/home/deepan/Projects/kiosk/templates/index.html",
+		"/home/deepan/Projects/zoomooz/zoomooz/index.html",
+		"/home/deepan/Projects/boxhouse/templates/website/index.html",
+		"/home/deepan/Projects/impress/new.html",
+		"/home/deepan/Projects/impress/index.html",
+		"/home/deepan/Projects/html5/index.html",
+		"/home/deepan/Projects/kiosk/templates/v1/about.html",
+		"/home/deepan/Projects/kiosk/templates/v1/masterplan.html",
+		"/home/deepan/Projects/html5/style.css",
+		"/home/deepan/Projects/html5/script.js",
+		"/home/deepan/Projects/html5/slide.html",
+		"/home/deepan/Projects/kiosk/templates/v1/testanimation.html",
+		"/home/deepan/Projects/kiosk/app/static/js/index.js",
+		"/home/deepan/Projects/kiosk/app/static/css/base.less",
+		"/home/deepan/Projects/kiosk/app/static/v1/css/base.less",
+		"/home/deepan/Projects/kiosk/templates/nav.html",
+		"/home/deepan/Projects/kiosk/templates/topbar.html",
+		"/home/deepan/Projects/kiosk/templates/v1/index.html",
 		"/home/deepan/Projects/kiosk/templates/two.html",
+		"/home/deepan/Projects/kiosk/templates/mobile.html",
+		"/home/deepan/Projects/kiosk/templates/jmobile.html",
+		"/home/deepan/Dropbox/Projects/kiosk/app/static/js/index.js",
+		"/home/deepan/Projects/kiosk/templates/index.html",
+		"/home/deepan/Projects/kiosk/templates/base.html",
+		"/home/deepan/Dropbox/Projects/impress.js/index.html",
+		"/home/deepan/Projects/impress/new.js",
+		"/home/deepan/Projects/impress.js/new.js",
+		"/home/deepan/Dropbox/Projects/impress.js/new.html",
+		"/home/deepan/Projects/kiosk/templates/impress.html",
+		"/home/deepan/Dropbox/Projects/zoomooz/zoomooz/examples/imagestack/index.html",
 		"/home/deepan/Projects/kiosk/app/static/css/FortAwesome-Font-Awesome-130486b/README.md",
 		"/home/deepan/Projects/kiosk/kiosk/urls.py",
 		"/home/deepan/Projects/kiosk/app/static/css/base.css",
@@ -797,33 +871,7 @@
 		"/home/deepan/Projects/bbq/website/static/js/jquery-ui-1.9.1.custom.min.js",
 		"/home/deepan/Projects/bbqsolver2.py",
 		"/home/deepan/.local/share/Trash/files/env/build/django/tests/regressiontests/admin_scripts/custom_templates/project_template/additional_dir/Procfile",
-		"/home/deepan/Projects/bbq/website/static/js/cloud-carousel.1.0.5.js",
-		"/home/deepan/Projects/charts/build/django/django/contrib/formtools/preview.py",
-		"/home/deepan/Projects/html5/scripts/control.js",
-		"/home/deepan/Projects/html5/index.html",
-		"/home/deepan/Projects/bbq/website/templatetags/__init__.py",
-		"/home/deepan/Projects/bbq/templates/website/shop_select_food2.html",
-		"/home/deepan/Projects/djangoenv/pyipopt/setup.py",
-		"/home/deepan/CoinIpopt/pyipopt/hs071.py",
-		"/home/deepan/Projects/bbq/website/static/css/website.less",
-		"/home/deepan/Projects/test.py",
-		"/home/deepan/Projects/foodMethods.py",
-		"/home/deepan/CoinIpopt/pyipopt/makefile",
-		"/home/deepan/Projects/pulp test.py",
-		"/home/deepan/Projects/git/conpanel/api.py",
-		"/home/deepan/Projects/git/conpanel/daterange.py",
-		"/home/deepan/Projects/git/conpanel/templates/sales/chart.html",
-		"/home/deepan/Projects/git/conpanel/static/js/datepickr.js",
-		"/home/deepan/Projects/git/conpanel/static/jqplot/chart2.js",
-		"/home/deepan/Projects/bbq solver.py",
-		"/home/deepan/Downloads/pyOpt-1.0.1/INSTALL",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/Makefile",
-		"/home/deepan/CoinIpopt/MyExample/Makefile",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_c/Makefile",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_c/hs071_c.c",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/ipopt.out",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.cpp",
-		"/home/deepan/CoinIpopt/build/Ipopt/examples/hs071_cpp/hs071_nlp.hpp"
+		"/home/deepan/Projects/bbq/website/static/js/cloud-carousel.1.0.5.js"
 	],
 	"find":
 	{
@@ -842,6 +890,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"border",
+			"content",
+			"cont",
+			"	.",
+			"mz1-title",
+			"mz1-titlw",
+			"sz-ti",
+			"border",
+			"%;",
+			"disp",
+			"close1",
+			"href",
+			"\");\n",
 			"one",
 			"zoomCon",
 			"slug",
@@ -956,20 +1017,7 @@
 			"200px",
 			"margins",
 			"Shop",
-			"margins",
-			"\n}",
-			"\n",
-			"73",
-			"clip",
-			"\n",
-			" '",
-			".jqplot",
-			"secondchart",
-			"json",
-			"ContactForm",
-			"contact",
-			"|",
-			"getitem"
+			"margins"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,7 +1039,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1006,12 +1054,12 @@
 						"selection":
 						[
 							[
-								2085,
-								2085
+								2078,
+								2078
 							],
 							[
-								2941,
-								2941
+								2932,
+								2932
 							]
 						],
 						"settings":
@@ -1021,7 +1069,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1587.0,
+						"translation.y": 138.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1031,20 +1079,22 @@
 					"file": "urls.py",
 					"settings":
 					{
-						"buffer_size": 973,
+						"buffer_size": 953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								679,
-								679
+								22,
+								22
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1057,15 +1107,15 @@
 					"file": "/home/deepan/Projects/kiosk/app/views.py",
 					"settings":
 					{
-						"buffer_size": 318,
+						"buffer_size": 279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								279,
+								279
 							]
 						],
 						"settings":
@@ -1080,29 +1130,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/home/deepan/Projects/kiosk/templates/base.html",
+					"file": "/home/deepan/Projects/kiosk/templates/v1/base.html",
 					"settings":
 					{
-						"buffer_size": 987,
+						"buffer_size": 1279,
 						"regions":
 						{
-							"bookmark_m":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										24,
-										24
-									]
-								]
-							}
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								39,
+								39
 							]
 						],
 						"settings":
@@ -1118,97 +1157,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/home/deepan/Projects/kiosk/templates/index.html",
+					"file": "/home/deepan/Projects/kiosk/templates/v1/timeline/timeline.html",
 					"settings":
 					{
-						"buffer_size": 464,
+						"buffer_size": 1888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/deepan/Projects/kiosk/templates/mobile.html",
-					"settings":
-					{
-						"buffer_size": 1029,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								566,
-								566
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 404.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/deepan/Projects/kiosk/templates/two.html",
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/home/deepan/Projects/kiosk/templates/topbar.html",
-					"settings":
-					{
-						"buffer_size": 585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
+								85,
+								85
 							]
 						],
 						"settings":
@@ -1223,56 +1183,131 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/home/deepan/Projects/kiosk/templates/nav.html",
+					"buffer": 5,
+					"file": "/home/deepan/Projects/kiosk/templates/v1/welcome.html",
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 402,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								402,
+								402
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 9,
-					"file": "/home/deepan/Projects/kiosk/templates/jmobile.html",
+					"buffer": 6,
+					"file": "/home/deepan/Downloads/jquery.mobile-1.2.0/demos/index.html",
 					"settings":
 					{
-						"buffer_size": 610,
+						"buffer_size": 2773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								1040,
+								1040
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/deepan/Projects/kiosk/templates/v1/masterplan2.html",
+					"settings":
+					{
+						"buffer_size": 2627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1541,
+								1541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 850.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/deepan/Dropbox/UCI/Demo mock ups/Colour code and opacity.txt",
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/deepan/Projects/kiosk/templates/v1/timeline.html",
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1284,18 +1319,78 @@
 				},
 				{
 					"buffer": 10,
-					"file": "/home/deepan/Projects/kiosk/app/static/css/base.less",
+					"file": "/home/deepan/Projects/kiosk/templates/v1/topbar.html",
 					"settings":
 					{
-						"buffer_size": 2104,
+						"buffer_size": 418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2100,
-								2100
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/deepan/Projects/kiosk/templates/v1/about.html",
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 12,
+					"file": "/home/deepan/Projects/kiosk/app/static/v1/css/base.less",
+					"settings":
+					{
+						"buffer_size": 6685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6441,
+								6441
 							]
 						],
 						"settings":
@@ -1304,61 +1399,141 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3588.0,
+						"translation.y": 6732.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "/home/deepan/Dropbox/Projects/impress.js/index.html",
+					"buffer": 13,
 					"settings":
 					{
-						"buffer_size": 19269,
+						"buffer_size": 3042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15825,
-								15825
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 951.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index2.js",
+					"settings":
+					{
+						"buffer_size": 2832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1939,
+								1939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 736.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index.js",
+					"settings":
+					{
+						"buffer_size": 1788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/home/deepan/Projects/kiosk/templates/mobile.html",
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9984.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "/home/deepan/Dropbox/Projects/kiosk/app/static/js/index.js",
+					"buffer": 17,
 					"settings":
 					{
-						"buffer_size": 1395,
+						"buffer_size": 775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								775,
+								775
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "Future plans for the campus need to be in balance",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1725.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1394,7 +1569,7 @@
 		"cols":
 		[
 			0.0,
-			0.4984375,
+			0.489508928571,
 			1.0
 		],
 		"rows":
