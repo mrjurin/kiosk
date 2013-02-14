@@ -1,0 +1,480 @@
+@font-face {
+	font-family: "chaco";
+	src: url('/static/v1/fonts/medium.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "thin";
+	src: url('/static/v1/fonts/thin.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "minion";
+	src: url('/static/v1/fonts/minion.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "bold";
+	src: url('/static/v1/fonts/bold.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "medium";
+	src: url('/static/v1/fonts/medium.otf') format("opentype");
+}
+
+.chaco {font-family: "chaco"; }
+
+.thin {	font-family: "thin";}
+
+.minion {font-family: "minion";}
+
+
+
+body {
+	background-image: url('/static/v1/img/timeline/tl_Backgroundfinal.jpg');
+	height: 1080px;
+	width: 12756px;
+	overflow-y: hidden;
+	z-index: 0;	
+	font-family: "medium";
+	color: #666;
+}
+
+#earth {
+	background-image: url('/static/v1/img/timeline/brown_earth.jpg');
+	width: 12756px;
+	height: 204px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+
+#main-header {
+	width: 1920px;
+	position: fixed;
+	height: 80px;
+	background: #fff;
+	opacity: 0.85;
+	color: #252621;
+	text-shadow: none;
+	z-index: 10;
+	display: block;
+}
+
+#main-header img {
+	position: static;
+	margin: 20px 0px 20px 20px;
+	height: 40px;
+	width: auto;
+	display: inline-block;
+}
+
+#main-links {
+	position: absolute;
+	margin:20px 0 20px 0px;
+	top: -10px;
+	left: 719px;
+	display: inline-block;
+
+}
+
+#main-links a {
+	//position: absolute;
+	float:left;
+	padding:0px 20px 0px 20px;
+	margin-top: 18px;
+	text-decoration: none;
+	color: #252621 !important;
+	display: inline-block;
+	font-size: 120%;
+}
+
+#main-links span {
+	padding-right: 36px;
+}
+
+
+#main-time {
+	margin:12px;
+	text-align: right;
+	position: absolute;
+	display: inline-block;
+	right: 75px;
+	top: 5px;
+
+
+}
+
+#main-time span {
+	font-size: 130%;
+	position: absolute;
+	display: inline-block;
+}
+
+
+#main-time p {
+	margin: 0;
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	top: 25px;
+	right:-55px;
+}
+
+.tree {
+	position: absolute;
+}
+
+/*First Clump of Trees*/
+#tree1 { left: 33px; bottom: 526px; height: 72px;}
+#tree2 { left: 62; bottom: 544px; height: 64px; z-index: -1;}
+#tree3 { left: 84px; bottom: 551px; height: 70px; z-index: -2;}
+#tree4 { left: 115px; bottom: 517px; height: 75px;}
+#tree5 { left: 247px; bottom: 479px; height: 74px;}
+#tree6 { left: 300px; bottom: 459px; height: 67px;}
+#tree7 { left: 344px; bottom: 487px; height: 75px;}
+
+
+/*Seciond Clump*/
+#tree8 { left: 600px; bottom: 191px; height: 98px;}
+#tree9 { left: 600px; bottom: 191px; height: 98px;}
+#tree10 { left: 600px; bottom: 191px; height: 98px;}
+#tree11 { left: 600px; bottom: 191px; height: 98px;}
+#tree12 { left: 600px; bottom: 191px; height: 98px;}
+#tree13 { left: 600px; bottom: 191px; height: 98px;}
+#tree14 { left: 600px; bottom: 191px; height: 98px;}
+#tree15 { left: 600px; bottom: 191px; height: 98px;}
+#tree16 { left: 600px; bottom: 191px; height: 98px;}
+#tree17 { left: 600px; bottom: 191px; height: 98px;}
+#tree18 { left: 600px; bottom: 191px; height: 98px;}
+#tree19 { left: 600px; bottom: 191px; height: 98px;}
+
+#construction-engineer {
+	position: absolute;
+	left: 2674px;
+	bottom: 205px;
+}
+
+
+#staff-students {
+	position: absolute;
+	left: 3568px;
+	bottom: 205px;
+}
+
+#sing-flag {
+	position: absolute;
+	left: 4500px;
+	bottom: 200px;
+}
+
+#brit-flag {
+	position: absolute;
+	left: 4489px;
+	bottom: 190px;
+}
+
+
+#flag {
+	position: absolute;
+	width: 215px;
+	height: 423px;
+	left: 7953px;
+	//bottom: 205px;
+	top:-452px;
+	z-index: 5;
+}
+
+#bullet-title {
+	display: none;
+}
+
+.bullet {
+	position: absolute;
+	z-index: 15;
+	bottom: 200px;
+}
+
+#bullet1 {
+	left: 6700px;
+	height: 350px;
+}
+
+#bullet-title {
+	position: absolute;
+	top: -280px;
+	width: 700px;
+	font-size: 75px;
+	font-family: "thin";
+}
+
+
+#bullet2 {
+	left: 7759px;
+	height: 250px;
+}
+
+#bullet3  {
+	left:8331px;
+	height: 300px;
+}
+
+
+
+.bullet-box {
+	display: none;
+	height: 50px;
+	width: 50px;
+	background: #575757;
+	position: absolute;
+	box-shadow: 5px 5px 0px white;
+}
+
+.bullet-text {
+	display: none;
+	position: absolute;
+	left: 65px;
+	font-size: 24px;
+	width: 370px;
+	text-align: justify;
+}
+
+.bullet-line {
+	position: absolute;
+	left: 25px;
+	//top: 50px;
+	bottom: -85px;
+	border-left: 2px solid white;
+	width: 10px;
+
+}
+
+.bullet-line-animate-class {
+	-webkit-animation: bullet-line-animate 1s linear forwards;
+}
+
+@-webkit-keyframes bullet-line-animate {
+	from {height: 0%;}
+	to {height:100%;}
+}
+
+
+
+.bullet-year {
+	position: absolute;
+	bottom: -140px;
+	text-align: center;
+	width: 90px;
+	left: -20px;
+	color: #FFF;
+	font-size: 32px;
+}
+
+
+#parliament {
+	position: absolute;
+	width: 747px;
+	height: 346px;
+	left: 8984px;
+	//bottom: 185px;
+	bottom: -161px;
+	z-index: 5;
+}
+
+
+.palmtrees {
+	display: none;
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	z-index: 6;
+	bottom: 65px;
+
+
+}
+
+#palmtrees1 {
+	position: absolute;
+	left: 9013px;
+	
+}
+
+#palmtrees2 {
+	position: absolute;
+	left: 9478px;
+	
+}
+
+
+#crane-section {
+	position: absolute;
+	height: 100%;
+	left: 9760px;
+	bottom: 205px;
+	border: 1px solid red;
+
+}
+
+#excavator {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	
+}
+
+
+
+
+#ex-body {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#ex-arm {
+	position: absolute;
+	left: 190px;
+	bottom:25px;
+}
+
+.excavator-animate {
+	-webkit-animation: translate-excavator 1s ease forwards;
+}
+
+@-webkit-keyframes translate-excavator {
+	from {left: 0px;}
+	to {left: 200px;}
+}
+
+.arm-animate {
+	-webkit-animation: rotateArm 1s linear infinite alternate;
+	-webkit-transform-origin : top left;
+}
+
+@-webkit-keyframes rotateArm {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(30deg);}
+}
+
+
+#foundation-section {
+	position: absolute;
+	left: 450px;
+	bottom: 0px;
+
+}
+
+#dugoutsoil {
+	position: absolute;
+	left: 0px;
+	//bottom: -80px;
+	bottom: 0px;
+	z-index: 11;
+}
+
+#foundation {
+	display: none;
+	position: absolute;
+	bottom: -100px;
+	left: -20px;
+	z-index: 13;
+}
+
+#piles {
+	position: absolute;
+	height: 0px;
+	width: 100%;
+	left: 49px;
+	bottom: -79px;
+	z-index: 12;
+}
+
+
+.animatepiles {
+	-webkit-animation : pilesHeight 4s linear 1 both;
+}
+
+@-webkit-keyframes pilesHeight {
+	from {height: 0px;}
+	to {height: 62px;}
+}
+
+#crane,#craneload {
+	position: absolute;
+}
+
+#small-earth {
+	position: absolute;
+	bottom: -214px;
+	left: 428;
+	height: 115px;
+	width: 1000px;
+	z-index: 15;
+}
+
+#crane-div {
+	position: absolute;
+	left: 20px;
+	bottom: -795px;
+	z-index: 14;
+}
+
+#crane {
+	bottom: -80px;
+	left: 2px;
+	z-index: 14;
+}
+
+#craneload{
+	bottom: 47px;
+	left: 327px;
+}
+
+
+.animateCraneload {
+	-webkit-animation: moveCraneLoad 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes moveCraneLoad {
+	from {left: 327px;}	
+	to {left: 20px;}
+}
+
+
+#engineering-buildings {
+	position: absolute;
+	left: 10269;
+	bottom: 331px;
+	height: 336px;
+	width: 1600;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+
+.e-building {
+	position: relative;
+	bottom: -336px;
+}
+
+#eblock {
+
+}
+
+#eblock {
+	left: -12px;
+}
+
+#eablock {
+	left: -108px;
+}
+
+
+
+
+
+
+

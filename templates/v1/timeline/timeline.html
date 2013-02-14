@@ -2,22 +2,107 @@
 <head>
 	<title></title>
 
+	<script src="/static/v1/js/jquery-1.8.3.min.js"></script>
+	<script src="/static/v1/js/jquery.transit.min.js"></script>
+	<script src="/static/v1/js/timeline.js"></script>
+	<!--
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="js/new.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="new.css">
+-->
+
+	<link rel="stylesheet" type="text/css" href="/static/v1/css/timeline.css">
 	
+
+
 
 
 
 <body>
 
+	<!-- earth -->
 	<div id="earth"> </div>
 
-	<img src="images/x7953_y205_NUSflag1.png" id="flag">
+	<div id="main-header">
+		<img src="/static/v1/img/logo.png">
 
-	<img src="images/x8931_y875_parliamenthouse.png" id="parliament">
+		<div id="main-links">
+			<a href="#masterplan2"><span style="border-right: 2px solid grey;">MASTER PLAN</span></a>
+			<a href="/timeline"><span style="border-right: 2px solid grey;">TIMELINE</span></a>
+			<a href="#about"><span>ABOUT UCI</span></a>
+		</div>	
+
+		<div id="main-time">
+			<span>15:34</span>
+			<p>12 April 2013</p>
+		</div>
+	</div>
+
+
+
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree1">
+	<img src="/static/v1/img/timeline/moving-trees.gif" class="tree" id="tree2">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree3">
+	<img src="/static/v1/img/timeline/moving-trees.gif" class="tree" id="tree4">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree4">
+	<img src="/static/v1/img/timeline/moving-trees.gif" class="tree" id="tree5">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree6">
+	<img src="/static/v1/img/timeline/moving-trees.gif" class="tree" id="tree7">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree8">
+	<img src="/static/v1/img/timeline/moving-trees.gif" class="tree" id="tree9">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree10">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree11">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree12">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree13">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree14">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree15">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree16">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree17">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree18">
+	<img src="/static/v1/img/timeline/moving-trees2.gif" class="tree" id="tree19">
+
+
+	<img src="/static/v1/img/timeline/x2674_y205_constructionengineer.png" id="construction-engineer">
+	<img src="/static/v1/img/timeline/x3568_y205_staff_students.png" id="staff-students">
+	
+
+
+
+	<img src="/static/v1/img/timeline/moving-singaporeflag.gif" id="sing-flag">
+	<img src="/static/v1/img/timeline/moving-britishflag.gif" id="brit-flag">
+
+
+
+
+
+
+
+
+
+
+
+	<img src="/static/v1/img/timeline/x7953_y205_NUSflag1.png" id="flag">
+
+	<!-- Parliament House -->
+
+	<img src="/static/v1/img/timeline/x8931_y875_parliamenthouse.png" id="parliament">
+
+	<div id="palmtrees1" class="palmtrees">
+		<img src="/static/v1/img/timeline/palmtree-animation(edited).gif">
+		<img src="/static/v1/img/timeline/palmtree-animation(edited).gif">
+		
+	</div>
+
+	<div id="palmtrees2" class="palmtrees">
+		<img src="/static/v1/img/timeline/moving_palmtrees2.gif">
+		<img src="/static/v1/img/timeline/moving_palmtrees2.gif">
+
+	</div>
+
+	<!-- End Parliament House -->
+
+	
 
 	
 
@@ -47,19 +132,48 @@
 		<p class="bullet-year">1969</p>
 	</div> 
 
-	<div id="engineering-section">
+	<!-- Crane Section -->
+
+	<div id="crane-section">
 		Engineering Section
 		<div id="excavator">
-			<img src="images/excavator.png" id="ex-body">
-			<img src="images/excavatorarm.png" id="ex-arm">
+			<img src="/static/v1/img/timeline/excavator.png" id="ex-body">
+			<img src="/static/v1/img/timeline/excavatorarm.png" id="ex-arm">
 		</div>
 
+		<img src="/static/v1/img/timeline/small_earth.jpg" id="small-earth">
+
 		<div id="foundation-section">
-			<img src="images/dugoutsoil.png" id="dugoutsoil">
-			<img src="images/Foundation.png" id="foundation">
-			<img src="images/piles.png" id="piles">
+			<img src="/static/v1/img/timeline/dugoutsoil.png" id="dugoutsoil">
+			<img src="/static/v1/img/timeline/Foundation.png" id="foundation">
+			<img src="/static/v1/img/timeline/piles.png" id="piles">
+			<div id='crane-div'>
+				<img src="/static/v1/img/timeline/crane.png" id="crane">
+				<img src="/static/v1/img/timeline/craneload.png" id="craneload">
+			</div>
+			
+
 		</div>
 	</div>
+
+	<!-- End of Crane -->
+
+
+	<!-- Engineering Buildings -->
+
+	<div id="engineering-buildings">
+		<img src="/static/v1/img/timeline/E2block.png" class="e-building" id="e2block">
+
+		<img src="/static/v1/img/timeline/Eblock.png" class="e-building" id="eblock">
+		<img src="/static/v1/img/timeline/EAblock.png" class="e-building" id="eablock">
+	</div>
+
+	<!-- End of Engineering Buildings -->
+
+
+
+
+
 
 
 	
