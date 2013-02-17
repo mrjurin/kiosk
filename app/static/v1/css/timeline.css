@@ -41,6 +41,28 @@ body {
 	color: #666;
 }
 
+
+/*#timeline-background {
+	position: absolute;
+	height: 1080px;
+	width: 12756px;
+	z-index: -10000;
+	overflow-x: ;
+}*/
+
+
+
+
+#hideAll {
+	position: fixed;
+   left: 0px; 
+   right: 0px; 
+   top: 0px; 
+   bottom: 0px; 
+   background-color: white;
+   z-index: 99; /* Higher than anything else in the document */
+}
+
 #earth {
 	background-image: url('/static/v1/img/timeline/brown_earth.jpg');
 	width: 12756px;
@@ -48,8 +70,8 @@ body {
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	z-index: 10;
-}
+	z-index: 10;}
+
 
 
 #main-header {
@@ -62,6 +84,8 @@ body {
 	text-shadow: none;
 	z-index: 10;
 	display: block;
+	left: 0px;
+	top: 0px;
 }
 
 #main-header img {
@@ -124,6 +148,71 @@ body {
 	right:-55px;
 }
 
+.dbrown {
+	color: #463123;
+}
+
+.lbrown {
+	color: #a18674;
+}
+
+
+.header h1 {
+	font-size: 65px;
+}
+
+.header span {
+	font-size: 30px;
+}
+
+.header {
+	display: none;
+	position: absolute;
+	opacity: 0.65;
+
+}
+
+#header1 {
+	//background-image: url("/static/v1/img/timeline/titletextbox.png");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 800px;
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	opacity: 0.6;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.72);
+
+	border-radius: 15px;
+	z-index: 10;
+}
+
+
+#header2 {
+	background-image: url("/static/v1/img/timeline/aimtextbox.png");
+	background-size: 100% 100%;
+	left: 2734px;
+	top: 178px;
+	height: 342px;
+	width: 1042;
+	padding: 0 30px 30px 30px;
+}
+
+
+#header3 {
+	background-image: url("/static/v1/img/timeline/masterplantextbox.png");
+	background-size: 100% 100%;
+	left: 4580px;
+	top: 206px;
+	width: 700px;
+	height: 290px;
+
+	padding: 0 30px 30px 30px;
+}
+
+
+
 .tree {
 	position: absolute;
 }
@@ -139,23 +228,31 @@ body {
 
 
 /*Seciond Clump*/
-#tree8 { left: 600px; bottom: 191px; height: 98px;}
-#tree9 { left: 600px; bottom: 191px; height: 98px;}
-#tree10 { left: 600px; bottom: 191px; height: 98px;}
-#tree11 { left: 600px; bottom: 191px; height: 98px;}
-#tree12 { left: 600px; bottom: 191px; height: 98px;}
-#tree13 { left: 600px; bottom: 191px; height: 98px;}
-#tree14 { left: 600px; bottom: 191px; height: 98px;}
+#tree8 { left: 460px; bottom: 206px; height: 104px;}
+#tree9 { left: 515px; bottom: 255px; height: 78px;}
+#tree10 { left: 572px; bottom: 270px; height: 80px;}
+#tree11 { left: 739px; bottom: 268px; height: 93px;}
+#tree12 { left: 802px; bottom: 191px; height: 77px;}
+#tree13 { left: 912px; bottom: 214px; height: 81px;}
+#tree14 { left: 880px; bottom: 300px; height: 71px;}
 #tree15 { left: 600px; bottom: 191px; height: 98px;}
-#tree16 { left: 600px; bottom: 191px; height: 98px;}
-#tree17 { left: 600px; bottom: 191px; height: 98px;}
-#tree18 { left: 600px; bottom: 191px; height: 98px;}
-#tree19 { left: 600px; bottom: 191px; height: 98px;}
+#tree16 { left: 2119px; bottom: 213px; height: 120px;}
+#tree17 { left: 1873px; bottom: 433px; height: 76px;}
+#tree18 { left: 2361px; bottom: 157px; height: 417px;}
+#tree19 { left: 2300px; bottom: 457px; height: 98px;}
+#tree20 { left: 2872; bottom: 235px; height: 95px;}
+#tree21 { left: 3257px; bottom: 294px; height: 80px;}
+#tree22 { left: 3785px; bottom: 300px; height: 98px;}
+#tree23 { left: 3681px; bottom: 441px; height: 98px;}
+#tree24 { left: 4000px; bottom: 398px; height: 75px;}
+
+
+
 
 #construction-engineer {
 	position: absolute;
 	left: 2674px;
-	bottom: 205px;
+	bottom: 192px;
 }
 
 
@@ -165,26 +262,49 @@ body {
 	bottom: 205px;
 }
 
+#flagpole {
+	position: absolute;
+	left: 5500px;
+	bottom: 205px;
+}
+
 #sing-flag {
 	position: absolute;
-	left: 4500px;
+	left: 5500px;
 	bottom: 200px;
+
+	display: none;
 }
 
 #brit-flag {
 	position: absolute;
-	left: 4489px;
-	bottom: 190px;
+	left: 5500px;
+	bottom: 200px;
+}
+
+#statue {
+	position: absolute;
+	left: 5700px;
+	bottom: 204px;
+}
+
+
+#header4 {
+	background-image: url("/static/v1/img/timeline/historytextbox.png");
+	background-size: 100% 100%;
+	left: 5830px;
+	top: 110px;
+	height: 306px;
+	width: 794px;
+	padding: 0px 30px 30px 30px;
 }
 
 
 #flag {
 	position: absolute;
-	width: 215px;
-	height: 423px;
 	left: 7953px;
 	//bottom: 205px;
-	top:-452px;
+	top: -421px;
 	z-index: 5;
 }
 
@@ -198,10 +318,7 @@ body {
 	bottom: 200px;
 }
 
-#bullet1 {
-	left: 6700px;
-	height: 350px;
-}
+
 
 #bullet-title {
 	position: absolute;
@@ -211,23 +328,33 @@ body {
 	font-family: "thin";
 }
 
+#bullet1 {
+	left: 6700px;
+	height: 350px;
+}
+
 
 #bullet2 {
 	left: 7759px;
-	height: 250px;
+	height: 644px;
 }
 
 #bullet3  {
 	left:8331px;
-	height: 300px;
+	height: 370px;
+}
+
+#bullet4 {
+	left: 8830px;
+	height: 370px;
 }
 
 
 
 .bullet-box {
 	display: none;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	background: #575757;
 	position: absolute;
 	box-shadow: 5px 5px 0px white;
@@ -246,7 +373,7 @@ body {
 	position: absolute;
 	left: 25px;
 	//top: 50px;
-	bottom: -85px;
+	bottom: -75px;
 	border-left: 2px solid white;
 	width: 10px;
 
@@ -336,8 +463,9 @@ body {
 
 #ex-arm {
 	position: absolute;
-	left: 190px;
-	bottom:25px;
+	left: 107px;
+	bottom: 38px;
+	z-index: -1;
 }
 
 .excavator-animate {
@@ -351,7 +479,7 @@ body {
 
 .arm-animate {
 	-webkit-animation: rotateArm 1s linear infinite alternate;
-	-webkit-transform-origin : top left;
+	-webkit-transform-origin: 20px 50px;
 }
 
 @-webkit-keyframes rotateArm {

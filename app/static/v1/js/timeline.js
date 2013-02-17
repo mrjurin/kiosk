@@ -1,10 +1,68 @@
+// $(window).load(function() {
+// 	console.log('ready');
+// 	document.getElementById("hideAll").style.display = "none"; 
+// });
+
+//$(window).load(function(){});
+
+// window.onload = function() {
+// 	var x = window.location.hash
+
+// 	console.log('onload x is ' + x)
+
+//     if(!x) {
+    	
+//         window.location = window.location + '#loaded';
+//         window.location.reload();
+//     }
+// }
+
 $(document).ready(function(){
 
+	console.log('document ready');
+
+	var b = window.location.hash ? true : false;
+
+	console.log ('b is ' + b);
+
+	if (b) {
+		//window.location = "http://127.0.0.1:8000/timeline/#loaded";
+		console.log('set location, reload called in 1s');
+		console.log('location is ' + window.location.toString());
+		window.setTimeout(function(){
+			//window.location.href("http://127.0.0.1:8000/timeline/#loaded");
+			//window.location.reload();
+		},2000);
+		
+	}
+
+	$('#header1').fadeIn(1000);
+
+		
+		// document.getElementById("hideAll").style.display = "none"; 
+		// //console.log('ready');
+
+
+		
+		//triggered everytime window scrolls.
 		$(window).bind("scroll", function(){
 
 		var x = $(this).scrollLeft();
 		console.log(x);
 
+		if (x>2300 && x<2400) {
+			$('#header2').fadeIn(600);
+		}
+
+		if (x>3900 && x<4000) {
+			$('#header3').fadeIn(600);
+		}
+
+		if (x>5200 && x<5300) {
+			$('#brit-flag').fadeOut(600);
+			$('#header4, #sing-flag').fadeIn(600);
+
+		}
 
 		if (x>6000) {
 			animateLine('bullet1');
@@ -21,6 +79,7 @@ $(document).ready(function(){
 		}
 
 		if (x>8060) {
+			animateLine('bullet4');
 			$('#parliament').transition({y:-346},500);
 			$('.palmtrees').fadeIn(800);
 		}
