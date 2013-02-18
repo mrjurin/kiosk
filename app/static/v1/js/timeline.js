@@ -50,21 +50,28 @@ $(document).ready(function(){
 		var x = $(this).scrollLeft();
 		console.log(x);
 
-		if (x>2300 && x<2400) {
-			$('#header2').fadeIn(600);
+		if (x>2100 && x<2200) {
+			$('#construction-engineer').transition({y:-282}, 500);
+			window.setTimeout(function(){
+				$('#header2').fadeIn(600);
+			});
+		}
+
+		if (x>2700 && x < 2800) {
+			$('#staff-students').transition({y:-280}, 500);
 		}
 
 		if (x>3900 && x<4000) {
 			$('#header3').fadeIn(600);
 		}
 
-		if (x>5200 && x<5300) {
+		if (x>5100 && x<5200) {
 			$('#brit-flag').fadeOut(600);
 			$('#header4, #sing-flag').fadeIn(600);
 
 		}
 
-		if (x>6000) {
+		if (x>5800) {
 			animateLine('bullet1');
 
 		};
@@ -74,7 +81,7 @@ $(document).ready(function(){
 			$('#flag').transition({y:860},500);
 		}
 
-		if (x>6800) {
+		if (x>7400) {
 			animateLine('bullet3');
 		}
 
@@ -85,7 +92,7 @@ $(document).ready(function(){
 		}
 
 		if (x>8900) {
-			$('#excavator').addClass('excavator-animate');
+			$('#excavator').fadeIn().addClass('excavator-animate');
 			window.setTimeout(function(){$('#ex-arm').
 				addClass('arm-animate');},1000);
 			window.setTimeout(digSoil,1200);
@@ -135,13 +142,13 @@ function craneLoad () {
 }
 
 function engineeringBuildings () {
-	$('#e2block').transit({y:-336},500);
+	$('#e2block').transit({y:-336},1000);
 	window.setTimeout(function(){
-		$('#eblock').transit({y:-336},500);
-	},500);
+		$('#eblock').transit({y:-336},1000);
+	},1200);
 	window.setTimeout(function(){
-		$('#eablock').transit({y:-336},500);
-	},1000)
+		$('#eablock').transit({y:-336},1000);
+	},2400)
 
 }
 

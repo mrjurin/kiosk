@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-family"
+			],
+			[
+				"ener",
+				"energyContent"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"s",
+				"sustainability-sidebar"
+			],
+			[
+				"zoom1",
+				"zoom1-content"
+			],
+			[
 				"set",
 				"setTimeout"
 			],
@@ -74,10 +94,6 @@
 			[
 				"back",
 				"background-repeat"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"backgr",
@@ -308,10 +324,6 @@
 				"HttpResponseNotAllowed"
 			],
 			[
-				"tab",
-				"table-cell"
-			],
-			[
 				"Cs",
 				"CustomerAdmin"
 			],
@@ -378,10 +390,6 @@
 			[
 				"price",
 				"pricePerPerson"
-			],
-			[
-				"s",
-				"setToolTipPositon"
 			],
 			[
 				"round",
@@ -506,14 +514,6 @@
 			[
 				"effect",
 				"effectivePeople"
-			],
-			[
-				"eff",
-				"effectivePeople"
-			],
-			[
-				"pel",
-				"peopleMultiplier"
 			]
 		]
 	},
@@ -563,7 +563,7 @@
 			"file": "/home/deepan/Projects/kiosk/templates/v1/masterplan2.html",
 			"settings":
 			{
-				"buffer_size": 2696,
+				"buffer_size": 8111,
 				"line_ending": "Unix"
 			}
 		},
@@ -600,10 +600,13 @@
 			}
 		},
 		{
+			"contents": "/* Generic Styles **/\n\n#252621: #252621;\n#ffffff: #ffffff;\n\n@font-face {\n	font-family: \"chaco\";\n	src: url('/static/v1/fonts/medium.otf') format(\"opentype\");\n}\n\n@font-face {\n	font-family: \"thin\";\n	src: url('/static/v1/fonts/thin.otf') format(\"opentype\");\n}\n\n@font-face {\n	font-family: \"minion\";\n	src: url('/static/v1/fonts/minion.otf') format(\"opentype\");\n}\n\nbody{\n	text-shadow: none;\n	font-family: \"thin\" !important;\n	color: #ffffff !important;\n	overflow: hidden;\n}\n\nh1,h2,h3 {\n	font-family: \"thin\" !important;\n	color: #ffffff !important;\n	text-shadow: none !important;\n}\n\n\n\n.chaco {font-family: \"chaco\"; }\n\n.thin {	font-family: \"thin\";}\n\n.minion {font-family: \"minion\";}\n\n\n.page {\n	height: 100%;\n\n}\n\n.border {\n	border:1px solid red;\n} \n\n\n/** Welcome page **/\n\n#screensaver {\n	height:100%;\n	background-image: url(\"/static/v1/img/welcomepage.jpg\");\n	background-size: 100% 100%;\n	background-repeat: no-repeat;\n	position: relative;\n	padding: 0px;\n}\n\n#screensaver div {\n	color: #ffffff;\n	display: inline-block;\n	position: absolute;\n}\n\n#welcome-banner {\n	font-size: 200%;\n	padding: 30px 30px 30px 30px;\n	top: 100px;\n	background : #252621;\n	opacity: 0.7;\n	text-align: left;\n}\n\n#welcome-time {\n	bottom: 0;\n	right: 0;\n	text-align: right;\n	padding: 30px;\n\n}\n\n#welcome-time #time {\n	font-size: 800%;\n	margin: 0px 0px 10px 0px;\n\n}\n\n#welcome-time #date {\n	font-size: 300%;\n	margin: 0px 0px 10px 0px;\n\n}\n\n#welcome-time #touch {\n	font-size: 150%;\n	color: #252621;\n	margin: 0px 0px 10px 0px;\n\n}\n\n\n/** header styles **/\n\n#main-header {\n	width: 1920px;\n	position: fixed;\n	height: 80px;\n	background: #ffffff;\n	opacity: 0.85;\n	color: #252621;\n	text-shadow: none;\n	z-index: 10;\n	display: block;\n}\n\n#main-header img {\n	position: static;\n	margin: 20px 0px 20px 20px;\n	height: 40px;\n	width: auto;\n	display: inline-block;\n}\n\n#main-links {\n	position: absolute;\n	margin:20px 0 20px 0px;\n	top: -10px;\n	left: 719px;\n	display: inline-block;\n\n}\n\n#main-links a {\n	//position: absolute;\n	float:left;\n	padding:0px 20px 0px 20px;\n	margin-top: 18px;\n	text-decoration: none;\n	color: #252621 !important;\n	display: inline-block;\n	font-size: 120%;\n}\n\n#main-links span {\n	padding-right: 36px;\n}\n\n\n#main-time {\n	margin:12px;\n	text-align: right;\n	position: absolute;\n	display: inline-block;\n	right: 75px;\n	top: 5px;\n\n\n}\n\n#main-time span {\n	font-size: 130%;\n	position: absolute;\n	display: inline-block;\n}\n\n\n#main-time p {\n	margin: 0;\n	position: absolute;\n	display: inline-block;\n	width: 100px;\n	top: 25px;\n	right:-55px;\n}\n\n/* master plan styles */\n\n#masterplan2 {\n	width: 1920px;\n	height: 1020px;\n	//background-image: url(\"/static/v1/img/map/bg.jpg\");\n	background-size: 1920px;\n	background-repeat: no-repeat;\n	position: relative;\n	\n\n}\n\n#kentridge-subtitle {\n	position: absolute;\n	left: 1123px;\n	bottom: 825px;\n}\n\n\n\n.abs {position: absolute;}\n\n.rel {position:relative;}\n\n\n#masterplan-main-container {\n	height: 100%;\n	width: 100%;\n	background-image: url(\"/static/v1/img/map/bg.jpg\");\n	background-position: 0 0;\n	background-repeat: no-repeat;\n	position: absolute;\n	overflow: hidden;\n	//margin-top: -80px;\n\n}\n\n.head, .zoom-container {\n	position: absolute;\n}\n\n.head {\n	z-index: 6;\n	text-align: center;\n	width: 142px;\n	height: 142px;\n	background-color: rgba(37, 38, 33, 0.9);\n	box-shadow: 5px 5px 4px;\n}\n\n.head h1 {\n	font-size: 19px;\n	padding-top: 31px;\n	line-height: 24px;\n}\n\n#head1 {\n	left: 1600px;\n	top: 610px;\n}\n\n#head2 {\n	right: 990px;\n	top: 400px;\n}\n\n#head3 {\n	right: 1423px;\n	bottom: 304px;\n}\n\n#head3 p {\n	color: white !important;\n	text-shadow: none;\n}\n\n#head4 {\n	left: 540px;\n	bottom: 850px;\n}\n\n#head4 > h1 \n	padding-top: 39px;\n}\n\n#zoom-container1 {\n	position: absolute;\n	width: 1173px;\n	height: 660px;\n	border: 1px solid red;\n	left: 725px;\n	top: 370px;\n	//margin-top: -17px;\n	font-size: 70%;\n	text-shadow: none !important;\n	color: #ffffff;\n}\n\n.sidebar {\n	display: none;\n	margin:0px 0 0 -10px;\n	padding: 10px 0 0 10px;\n	position: absolute;\n	width: 320px;\n	height: 602px;\n	top: 49px;\n	background: #252621;\n	opacity: 0.7;\n	left: -250px;\n}\n\n/*#zoom-container1 > .sidebar {\n	margin:0px 0 0 -10px;\n	padding: 10px 0 0 10px;\n	position: absolute;\n	width: 250px;\n	height: 602px;\n	top: 49px;\n	background: #252621;\n	opacity: 0.7;\n	left: -250px;\n	//.border;\n}*/\n\n\n\n#zoom-container1  .sidebar h1{\n	text-align: center\n;\n	padding-top: 20px;\n}\n#zoom-container1  .sidebar div{\n	text-align: center;\n	line-height: 200%;\n	padding: 15px 30px 0 30px;\n}\n\n\n.content {\n	display: none;\n}\n\n/* set the size for content of zoom container1 only */\n#zoom-container1 > .content {\n	position: absolute;\n	margin-top: 35px;\n	width:670px;\n	height: 480px;\n	left:250px;\n	top: 0;\n\n}\n\n#zoom-container1  .sidebar .close {\n	position: absolute;\n	width: 200px;\n	text-align: center;\n	bottom:20px; \n}\n\n.bubble {\n	display: none;\n	position: absolute;\n	background-repeat: no-repeat;\n	background-size: 100% 100%;\n	\n	padding: 5px;\n	text-align: center;\n	z-index: 5;\n	padding-top: 5px;\n	font-size: 9px;\n}\n\n.bubble-table {\n	display: table;\n	width: 100%;\n	text-align: center;\n}\n\n.bubble-text {\n	display: table-cell;\n	vertical-align: middle;\n}\n\n.green {\n	background-image: url('/static/v1/img/map/speechbubble2.png');\n	height: 52px;\n	width: 52px;	\n	opacity: 0.9;\n}\n\n.green .bubble-table {\n	height: 54px;\n	position: relative;\n	left: -4px;\n	top: -4px;\n}\n\n.grey .bubble-table {\n	height: 43px;\n}\n\n.grey {\n	background-image: url('/static/v1/img/map/speechbubble1.png');\n	height: 62px;\n	width: 50px;	\n	opacity: 0.9;\n}\n\n#signage { left: 185px; top: 180px; }\n#orientation { left: 290px; top: 240px; }\n#memory { left: 390px; top: 210px; }\n#activity { left: 460px; top: 240px; }\n#campus { left: 550px; top: 163px; }\n#academic { left: 560px; top: 273px; }\n#newBuildings { left: 570px; top: 388px; }\n#carparking { left: 641px; top: 170px; }\n#amc { left: 640px; top: 290px; }\n#circulation { left: 770px; top: 220px; }\n#lt { left: 720px; top: 324px; }\n#architect { left: 820px; top: 350px; }\n\n\n#goals { 	right: 510px; 	top: 360px; }\n#analysis { right: 400px; 	 top: 410px; }\n#phases { right: 280px; 	 top: 450px; }\n#sustainability { right: 150px; top: 490px; }\n\n\n\n.main-green-point-div {\n	position: absolute;\n	height: 260px;\n	width: 360px;\n	border: 1px solid black;\n	display: none;\n}\n\n#energy-efficiency-div {\n	left: 420px;\n	top: 50px;\n}\n\n\n#sustainability-content {\n	position: absolute;\n	left: 291px;\n	top: 40px;\n	border: 1px solid red;\n}\n\n/*energy points*/\n#sub-energy {position: absolute;left: 125px;top: 70px;}\n#sub-monitoring {position: absolute;left: 23px;top: 60px;}\n#sub-design {position: absolute;left: 146px;top: -20px;}\n#sub-natural {position: absolute;left: 232px;top: 60px;}\n#sub-alternative {position: absolute;left: 231px;top: 150px;}\n\n/*waste points*/\n#sub-waste {position: absolute;left: 110px;top: 50px;}\n#sub-reuse {position: absolute;left: 219px;top: 100px;}\n#sub-recycle {position: absolute;left: 140px;top: 150px;}\n#sub-disposal {position: absolute;left: 10px;top: 90px;}\n\n/*water points*/\n#sub-water {position: absolute;left: 140px;top: 70px;}\n#sub-applications {position: absolute;left: 250px;top: 150px;}\n#sub-storage {position: absolute;left: 150px;top: 180px;}\n#sub-sources {position: absolute;left: 40px;top: 110px;}\n\n#zoom1-modal {\n	position: absolute;\n	left: 390px;\n	top: 200px;\n	height: 310px;\n	width: 700px;\n	background-color: rgba(37, 38, 33, 0.9);\n	border-radius: 10px;\n	z-index: 6;\n	display: none;\n	z-index: 15;\n	font-family: 'thin';\n}\n\n\n.modal-close {\n	display: table;\n	position: absolute;\n	right: -15px;\n	top: -15px;\n	height: 30px;\n	width: 31px;\n	border: 2px solid white;\n	border-radius: 31px;\n	text-align: center;\n	background: black;\n	font-size: 17px;\n}\n\n.modal-close > span {\n	display: table-cell;\n	vertical-align: middle;\n}\n\n.modal-content {\n	position: absolute;\n	height: 70%;\n	top: 10%;\n	width: 59%;\n	//border:1px solid red;\n	border: 1px solid red;\n}\n\n.modal-content > h1 {\n	padding: 2px 15px;\n}\n\n\n.modal-content > div {\n	padding: 0 18px;\n	line-height: 26px;\n	font-size: 13px;\n	text-align: justify;\n}\n\n.modal-image {\n	position: absolute;\n	right: 3%;\n	top: 10%;\n}\n\n.modal-image img {\n	width: 260px;\n}\n\n.modal-control {\n	position: absolute;\n	//border: 1px solid red;\n	top: 80%;\n	left: 10%;\n	width: 30%;\n	height: 10%;\n}\n\n\n.modal-control > img {\n	height: 25px;\n}\n\n\n.modal-control > span {\n	display: none;\n	padding: 0 10px;\n	position: relative;\n	top: -7px;\n\n	letter-spacing: 10px;\n}\n\n\n\n.main-green-point {\n	//display: none;\n	height: 36%;\n}\n\n.sub-grey-point {\n	display: none;\n}\n\n.ta {\n	height: 30%;\n}\n\n.sa {\n	width: 24%;\n}\n\n#waste-management-div {\n	left: 480px;\n	top: 330px;\n}\n\n#water-conservation-div {\n	left: 50px;\n	top: 250px;\n}\n\n\n\n#sub-zoom-container1 {\n	width: 460px;\n	height: 255px;\n	position: absolute;\n	top: 125px;\n	left:355px;\n	//.border;\n	z-index: 4;\n	font-size: 25%;\n}\n\n#sub-zoom-container1 > .sidebar {\n	position: absolute;\n	left: 0;\n	top: 17x;\n	width: 120px;\n	height: 245px;\n	background: #252621;\n	opacity: 0.7;\n	//.border;\n	display:none;\n	//margin-top: 16px;\n	//padding-bottom: 16px;\n}\n\n#sub-zoom-container1 > .content {\n	position: absolute;\n	left: 120px;\n	top: 16px;\n	height: 239px;\n	width: 340px;\n	//.border;\n	display: none\n}\n\n#sub-zoom-container1 > .sidebar h1 {\n	text-align: center;\n	padding-top: 5px;\n\n}\n\n#sub-zoom-container1 > .sidebar div {\n	text-align: center;\n	padding: 10px;\n	line-height: 200%;\n}\n\n#sub-zoom-container1 > .sidebar p {\n	position: absolute;\n	bottom:5px;\n	text-align: center;\n	width: 100%;\n}\n\n.s-bubble {\n	display: none;\n	position: absolute;\n	background-repeat: no-repeat;\n	background-size: 100% 100%;\n	height: 20px;\n	width: 34px;	\n	padding: 2px;\n	text-align: center;\n	z-index: 5;\n	font-size: 5px;\n}\n\n#s-bubble1{top: 30px;left: 168px;}\n#s-bubble2{top:150px;left:60px;}\n#s-bubble3{top:170px;left:200px;}\n#s-bubble4{top:40px;left:200px;}\n\n/*\n\n#modal1, #modal-close, \n#modal-content, #modal-image,\n#modal-title {\n	position: absolute;\n}\n\n\n\n#modal1 {\n	display: none;\n	//.border;\n	height: 180px;\n	width: 300px;\n	left: 16px;\n	top: 29px;\n	background: #252621;\n	opacity: 0.9;\n	border-radius: 5px;\n	z-index:7;\n}\n\n#modal-close {\n	left: 293px;\n	top: -6px;\n	border: 1px solid white;\n	padding: 2px 2px 2px 3px;\n	background: #252621;\n	\n	border-radius: 6px;\n	width: 5px;\n	height: 6px;\n}\n\n#modal-content {\n	height: 136px;\n	width: 168px;\n	left: 10px;\n	top: 28px;\n	font-size: 5px;\n	line-height: 170%;\n	//.border;\n\n}\n\n#modal-image {\n	height: 136px;\n	width: 100px;\n	right: 10px;\n	top: 28px;\n	//.border;\n}\n\n#modal-title {\n	height:15px;\n	width:200px;\n	left: 10px;\n	top: 11px;\n	font-size: 10px;\n	//.border;\n}\n\n*/\n\n/** timeline styles **/\n#timeline-container {\n	position: absolute;\n	top: 0px;\n	left: 0px;\n	height: 1080px;\n	overflow-x:scroll;\n	overflow-y:	hidden;\n	padding:0px !important;\n}\n\n#timeline-container img {\n	height: 100%;\n	\n}\n\n\n/** about us  *",
 			"file": "/home/deepan/Projects/kiosk/app/static/v1/css/base.css",
+			"file_size": 10688,
+			"file_write_time": 1361113040000000,
 			"settings":
 			{
-				"buffer_size": 7066,
+				"buffer_size": 10687,
 				"line_ending": "Unix"
 			}
 		},
@@ -624,10 +627,13 @@
 			}
 		},
 		{
+			"contents": "$(document).ready(function(){\n\n\n\n\n	$('#screensaver, #navbarTimeline').click(function(){\n		window.location.href = \"http://127.0.0.1:8000/timeline/\";\n	});\n\n	// zoom container 1 zoom-in\n		\n	$('#head1').click(function(){\n		$('.head').fadeOut();\n		$('#zoom-container1').zoomTo({\n			targetsize:1.0,\n			duration:1000,\n			ease:'linear',\n			scalemode:\"width\",\n			root:$('#masterplan-main-container'),\n			animationendcallback: mainZoomIn1\n		})		\n	});\n\n\n	//zoom conatainer 1 close\n	$('#close1').click(function(){\n		$(\".sidebar,.content, .bubble\", '#zoom-container1').hide();\n		$('#zoom-container1 > .sidebar').transition({x:'0px'});\n		$('body').zoomTo({\n			targetsize:1.0,\n			duration:1000,\n			root:$('#masterplan-main-container')\n		});\n		//$('masterplan-main-container').css('margin-top', '-80px')\n		$('.head').fadeIn();\n	});\n\n	//refactor to use a generic div.\n	$('#sustainability').click(function(){\n		$('.bubble, #zoom1-sidebar').fadeOut();\n		$('#zoom-container1 #sustainability-sidebar').transition({x:'250px'},1).fadeIn();\n		$('#sustainability-content').fadeIn();\n		$('.main-green-point-div').fadeIn();\n		window.setTimeout(function(){\n			bubblepop('#zoom-container1  #sustainability-content .sub-grey-point');\n		},400);	\n	});\n\n\n	$('#sustainability-close').click(function(){\n		$('#sustainability-content, #sustainability-sidebar').fadeOut();\n		$('#zoom1-sidebar, #zoom1-content, .bubble').fadeIn();\n	});\n\n\n	$modal = $('#zoom1-modal');\n\n	$('.main-green-point, .sub-grey-point').click(function(){\n		$modal.fadeIn();\n		fillModal($(this).data(\"click\"));\n	});\n\n\n	$('.modal-close').click(function(){\n		$modal.fadeOut();\n	});\n\n\n	// $('#zoom-container1 #green3').click(function(){\n	// 	$('.bubble').fadeOut();\n	// 	$('#sub-zoom-container1').zoomTo({\n	// 		targetsize:1.0,\n	// 		duration:1000,\n	// 		root:$('#masterplan-main-container'),\n	// 		animationendcallback: subZoomIn1\n\n	// 	});\n	// });\n\n\n	//sub zoom container close\n\n	// $('#close2').click(function(){\n	// 	$(\".sidebar,.content, .s-bubble\", '#sub-zoom-container1').hide();\n	// 	$('#zoom-container1').zoomTo({\n	// 		targetsize:1.0,\n	// 		duration:1000,\n	// 		root:$('#masterplan-main-container'),\n	// 	});\n\n	// 	bubblepop('#zoom-container1 > .content  > .bubble');\n	// });\n\n	// var content = \"Some text here\";\n	// var ep = [\"Environmental Protection\", \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet lobortis nunc, eu eleifend lorem porta sed. Nulla condimentum, est eget malesuada egestas, orci velit sodales mi, id semper mauris elit porta lacus. Nullam placerat consectetur metus, non auctor metus dictum sed. Sed pellentesque nisl volutpat arcu vestibulum at molestie orci lobortis. Nam at quam orci. Etiam gravida convallis eros, non tincidunt nunc ultricies vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent cursus libero nec nisi sollicitudin rutrum. Praesent tincidunt risus sit amet erat egestas sit amet bibendum neque aliquet. \" , \"/static/v1/img/greenery.png\"];\n\n	// $('#s-bubble1').click(function(){\n	// 	console.log(ep);\n	// 		fillModal(ep);\n	// 	$('#modal1').show()\n	// });\n\n	// $('#modal-close').click(function(){\n	// 	$('#modal1').hide();\n	// });\n\n\n\n});\n\nfunction mainZoomIn1 (){\n	$('#zoom-container1 #zoom1-sidebar').show().transition({x:'250px'},500);\n	//animateSidebar();\n	$('#zoom-container1  #zoom1-content').show();\n	bubblepop('#zoom-container1  .content  > .green');\n	bubblepop('#zoom-container1  .content  > .grey');\n	\n}\n\n\n	\nfunction subZoomIn1 () {\n	$('#sub-zoom-container1 > .sidebar').show('slide');\n	$('#sub-zoom-container1 > .content').show();\n	bubblepop('#sub-zoom-container1 > .content > .s-bubble' );\n}\n\nfunction bubblepop(xx) {\n	setTimeout(function() {\n		$(xx).each(function(i){\n		$(this).delay(150*i).show('bounce',{ times: 3 }, \"slow\");\n	});}, 600);\n}\n\n\n//deprecaated. Using jquery transit for this.\nfunction animateSidebar (xx) {\n	$('#zoom-container1 > .sidebar').show().animate({width: '250px'}, 500, function() {});\n}\n\n\n\nvar energy = [\n'ENERGY EFFICIENCY', \n'As part of the NUS campus wide sustainability aim, the master plan aims to design and build energy efficient buildings without compromising on the comfort for users.',\n'energy.jpg', \n'1/5'];\n\nvar monitoring = [\n'MONITORING', \n'New and existing buildings installed with sensors which are linked to a central system monitor flow rates and regulate electricity usage. Air flow rates are regulated and reduced to improve air conditioning efficiency and reduce leakages.',\n'monitoring.jpg', \n'2/5'];\n\nvar design  = [\n'DESIGN', \n'Overall heat gains of buildings are reduced by innovative shading designs and glazing selection.',\n'design.jpg', \n'3/5'];\n\nvar natural = [\n'NATURAL', \n'Natural means are encourages to be incorporated in every possible design to reduce energy usage, such as using vegetation to reduce heat gain of buildings from sunlight.',\n'natural.jpg', \n'4/5'];\n\nvar alternative  = [\n'ALTERNATIVES', \n'Alternative renewable source of energy such as biofuel, generated from organic wastes, are considered to reduce usage of conventional power and produce useful by-products such as biochar.',\n'alternatives.jpg', \n'5/5'];\n\nvar water = [\n'WATER CONSERVATION', \n'Efforts to conserve water in campus can be done by promoting efficient usage of water which are covered in the three main aspects: Sources, Storage and Applications.',\n'waterconservation.jpg', \n'1/4'];\n\nvar sources  = [\n'SOURCES', \n'Recognising the value of water as a precious resource, rain water treatment systems will be implemented into the various part of the campus. For example at the Valley behind Central Library, the natural vegetation system can harvest rainwater for non-potable water demands.',\n'sources.jpg', \n'2/4'];\n\nvar storage = [\n'STORAGE', \n'Water tanks collect rainwater for non-potable usage so as to reduce water usage from PUB and other sources. ',\n'storage.jpg', \n'3/4'];\n\nvar applications = [\n'APPLICATIONS', \n'For non-drinking purposes such as irrigation and cooling systems, potable water is replaced by using alternative recyclable sources such as non-PUB water, rainwater or Newater. In addition, all water meters, which are linked to the Building Management system, monitor major water usage.',\n'applications.jpg', \n'4/4'];\n\nvar waste  = [\n'WASTE', \n'On top of encouraging the use of sustainable materials and products in infrastructure construction, the Master Plan promotes proper disposal of waste and provide adequate and appropriate waste management infrastructures. ',\n'wastemanagement.jpg', \n'1/4'];\n\nvar disposal = [\n'DISPOSAL', \n'Adequate and appropriate waste management infrastructures such as recycling stations, compost station and safe drop-off points for potentially hazardous wastes are provided. Sufficient spaces are set aside for waste management without compromising on safety and minimizing disturbance to the surrounding.',\n'disposal.jpg', \n'2/4'];\n\nvar recycle  = [\n'RECYCLING', \n'Provision of recycling bins at various parts of the campus helps separation of waste such as glass, metal and paper and promotes recycling of materials.',\n'recycling.jpg', \n'3/4'];\n\nvar reuse  = [\n'REUSE', \n'Environmentally friendly waste processing systems are encouraged such as using organic waste for energy generation through bio-methanisation.',\n'reuse.jpg', \n'4/4'];\n\n\nfunction fillModal(x) {\n	if (x==\"energy\") {fill(energy);};\n	if (x=='monitoring') {fill(monitoring);};\n	if (x=='design') {fill(design);};\n	if (x=='natural') {fill(natural);};\n	if (x=='alternative') {fill(alternative);};\n	if (x=='waste') {fill(waste);};\n	if (x=='reuse') {fill(reuse);};\n	if (x=='recycle') {fill(recycle);};\n	if (x=='disposal') {fill(disposal);};\n	if (x=='water') {fill(water);};\n	if (x=='applications') {fill(applications);};\n	if (x=='storage') {fill(storage);};\n	if (x=='sources') {fill(sources);};\n\n	// $('#modal-title').html(x[0]);\n	// $('#modal-content').html(x[1]);\n	// $('#modal-image').attr('src', x[2]);\n}\n\nfunction fill(x) {\n	$('.modal-content > h1').html(x[0]);\n	$('.modal-content > div').html(x[1]);\n	$('.modal-image > img').attr(\"src\", \"/static/v1/img/map/photos/\" + x[2]);\n	$('.modal-control > span').html(x[3]);\n}\n\n\n",
 			"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index2.js",
+			"file_size": 8148,
+			"file_write_time": 1361110849000000,
 			"settings":
 			{
-				"buffer_size": 3032,
+				"buffer_size": 8147,
 				"line_ending": "Unix"
 			}
 		}
@@ -635,19 +641,27 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 54.0,
 		"selected_items":
 		[
+			[
+				"LOWE",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
 			[
 				"lorem",
 				"Snippet: Lorem ipsum"
 			],
 			[
 				"wra",
-				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"wr",
 				"HTML: Wrap Selection With Tag"
 			],
 			[
@@ -695,7 +709,7 @@
 				":$ - EOF"
 			]
 		],
-		"width": 575.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -858,6 +872,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"academ",
 			".rel",
 			".abs",
 			"@white",
@@ -984,8 +999,7 @@
 			"typeof",
 			"time",
 			"meta",
-			"Appo",
-			"appointment"
+			"Appo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1024,8 +1038,8 @@
 						"selection":
 						[
 							[
-								1055,
-								1055
+								1053,
+								1053
 							]
 						],
 						"settings":
@@ -1052,8 +1066,8 @@
 						"selection":
 						[
 							[
-								206,
-								206
+								204,
+								204
 							]
 						],
 						"settings":
@@ -1080,8 +1094,8 @@
 						"selection":
 						[
 							[
-								151,
-								151
+								149,
+								149
 							]
 						],
 						"settings":
@@ -1117,8 +1131,8 @@
 						"selection":
 						[
 							[
-								1704,
-								1704
+								1702,
+								1702
 							]
 						],
 						"settings":
@@ -1164,15 +1178,15 @@
 					"file": "/home/deepan/Projects/kiosk/templates/v1/masterplan2.html",
 					"settings":
 					{
-						"buffer_size": 2696,
+						"buffer_size": 8111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								873,
-								873
+								4592,
+								4592
 							]
 						],
 						"settings":
@@ -1181,7 +1195,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 34.0,
+						"translation.y": 2397.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1251,8 +1265,8 @@
 						"selection":
 						[
 							[
-								429,
-								429
+								427,
+								427
 							]
 						],
 						"settings":
@@ -1296,7 +1310,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1304,15 +1318,15 @@
 					"file": "/home/deepan/Projects/kiosk/app/static/v1/css/base.css",
 					"settings":
 					{
-						"buffer_size": 7066,
+						"buffer_size": 10687,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4020,
-								4020
+								3325,
+								3325
 							]
 						],
 						"settings":
@@ -1321,7 +1335,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4514.0,
+						"translation.y": 3719.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1338,8 +1352,8 @@
 						"selection":
 						[
 							[
-								225,
-								225
+								7,
+								7
 							]
 						],
 						"settings":
@@ -1364,8 +1378,8 @@
 						"selection":
 						[
 							[
-								1282,
-								1282
+								786,
+								786
 							]
 						],
 						"settings":
@@ -1375,7 +1389,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 895.0,
+						"translation.y": 419.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1385,24 +1399,25 @@
 					"file": "/home/deepan/Projects/kiosk/app/static/v1/js/index2.js",
 					"settings":
 					{
-						"buffer_size": 3032,
+						"buffer_size": 8147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								558,
-								558
+								7298,
+								7298
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3477.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1438,7 +1453,7 @@
 		"cols":
 		[
 			0.0,
-			0.520261437908,
+			0.56093940401,
 			1.0
 		],
 		"rows":

@@ -86,6 +86,7 @@ body {
 	display: block;
 	left: 0px;
 	top: 0px;
+	font-family: 'thin'
 }
 
 #main-header img {
@@ -153,7 +154,7 @@ body {
 }
 
 .lbrown {
-	color: #a18674;
+	color: #6B2B00;
 }
 
 
@@ -175,10 +176,10 @@ body {
 #header1 {
 	//background-image: url("/static/v1/img/timeline/titletextbox.png");
 	background-repeat: no-repeat;
-	height: 400px;
+	height: 380px;
 	width: 800px;
 	position: absolute;
-	left: 500px;
+	left: 560px;
 	top: 300px;
 	opacity: 0.6;
 	text-align: center;
@@ -187,6 +188,28 @@ body {
 	border-radius: 15px;
 	z-index: 10;
 }
+
+#header1 h1 {
+	line-height: 78px;
+	letter-spacing: 15px;
+}
+
+#header1 span {
+	font-size: 21px;
+
+	position: relative;
+	top: -23px;
+}
+
+#header2 h1, #header3 h1, #header4 h1 {
+    margin-bottom: 10px;
+}
+
+#header2 span, #header3 span, #header4 span {
+    line-height: 39px;
+    font-size: 28px;
+}
+
 
 
 #header2 {
@@ -252,14 +275,14 @@ body {
 #construction-engineer {
 	position: absolute;
 	left: 2674px;
-	bottom: 192px;
+	bottom: -88px;
 }
 
 
 #staff-students {
 	position: absolute;
 	left: 3568px;
-	bottom: 205px;
+	bottom: -75px;
 }
 
 #flagpole {
@@ -441,7 +464,7 @@ body {
 	height: 100%;
 	left: 9760px;
 	bottom: 205px;
-	border: 1px solid red;
+	//border: 1px solid red;
 
 }
 
@@ -449,6 +472,7 @@ body {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
+	display: none;
 	
 }
 
@@ -578,7 +602,7 @@ body {
 	bottom: 331px;
 	height: 336px;
 	width: 1600;
-	border: 1px solid red;
+	//border: 1px solid red;
 	overflow: hidden;
 }
 
